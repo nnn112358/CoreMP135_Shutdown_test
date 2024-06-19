@@ -1,7 +1,6 @@
 
 // Copyright (c) 2024 @nnn112358<https://github.com/nnn112358/>
-//$ arm-linux-gnueabihf-g++ coremp135_i2c_backlight_ctrl.cpp -o
-//  coremp135_i2c_backlight_ctrl
+//$ arm-linux-gnueabihf-g++ axp2101_shutdown.cpp -o axp2101_shutdown
 
 #include <stdio.h>
 #include <stdlib.h>
