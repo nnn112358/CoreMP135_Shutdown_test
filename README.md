@@ -5,7 +5,7 @@ Be sure to run this while writing data to the MicroSD card or accessing the devi
 ## cmd
 
 ```
-$ arm-linux-gnueabihf-g++ axp2101_shutdown_k1.cpp -o axp2101_shutdown
+$ arm-linux-gnueabihf-g++ axp2101_shutdown.cpp -o axp2101_shutdown
 ```
 
 
