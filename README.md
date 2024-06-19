@@ -1,3 +1,14 @@
+## Abst
+This is a test to turn off the power on AXP2101.
+Be sure to run this while writing data to the MicroSD card or accessing the device
+
+## cmd
+
+```
+$ arm-linux-gnueabihf-g++ axp2101_shutdown_k1.cpp -o axp2101_shutdown
+```
+
+
 ![image](https://github.com/nnn112358/CoreMP135_Shutdown_test/assets/27625496/02b27e58-9f8c-41ee-9db8-6d9a6430ab2a)
 
 
