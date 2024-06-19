@@ -55,8 +55,8 @@ uint8_t read8Bit(int i2c_fd, uint8_t reg) {
 
 
 int main() {
-    const char *dev = "/dev/i2c-0"; // g—p‚·‚éI2CƒoƒX‚ğw’è
-    int addr = 0x34; // I2CƒfƒoƒCƒX‚ÌƒAƒhƒŒƒX
+    const char *dev = "/dev/i2c-0"; // ä½¿ç”¨ã™ã‚‹I2Cãƒã‚¹ã‚’æŒ‡å®š
+    int addr = 0x34; // I2Cãƒ‡ãƒã‚¤ã‚¹ã®ã‚¢ãƒ‰ãƒ¬ã‚¹
 
     int i2c_fd = open(dev, O_RDWR);
     if (i2c_fd < 0) {
@@ -74,7 +74,7 @@ int main() {
     printf("Hexadecimal: %02x\n", value);
     print_binary(value);
     printf("\n");
-    value |= 0x01; // 1ƒrƒbƒg–Ú‚ğƒZƒbƒg
+    value |= 0x01; // 1ãƒ“ãƒƒãƒˆç›®ã‚’ã‚»ãƒƒãƒˆ
     
     uint8_t value_temp;
    printf("Enter the value to write : ");
